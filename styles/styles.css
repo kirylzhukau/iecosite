@@ -4025,6 +4025,6 @@
 
 @media screen and (max-width: 768px) {
    .calendly-inline-widget{
-      height: 1100px;
+      height: 1100px !important;
    }
 }
