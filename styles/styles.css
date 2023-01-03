@@ -179,6 +179,8 @@
      padding-top: 0px;
      background-image: none;
    }
+
+   
    
    .styleguide-block {
      display: block;
@@ -4022,6 +4024,10 @@
        margin-top: 0px;
      }
    }
+
+.partners-adv-platforms {
+   background-color: ##1792d4;
+}
 
 @media screen and (max-width: 768px) {
    .calendly-inline-widget{
