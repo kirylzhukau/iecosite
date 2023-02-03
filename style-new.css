@@ -11,6 +11,9 @@ strong {
     font-weight: 700;
     text-shadow: 0 0 0 transparent;
 }
+a { 
+    text-decoration: none; 
+   } 
 
 h2 {
     text-align: center;
@@ -52,6 +55,7 @@ p {
 
 
 button {
+    cursor: pointer;
     font-family: Poppins;
     background-color: #e0e0e0;;
     color: #000;
