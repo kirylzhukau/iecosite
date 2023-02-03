@@ -1,0 +1,146 @@
+body {
+    background-image: linear-gradient(to right top, #12151c, #101218, #0d0f14, #0a0b10, #06070a);
+    background: rgb(69,15,44);
+    background: linear-gradient(138deg, rgba(69,15,44,1) 0%, rgba(55,23,47,1) 14%, rgba(36,19,45,1) 35%, rgba(0,0,0,1) 100%);
+    font-family: Lato;
+    padding: 0;
+}
+
+strong {
+    color: white;
+    font-weight: 700;
+    text-shadow: 0 0 0 transparent;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.title {
+    text-shadow: 0 0 0 transparent;
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin-top: 2;
+}
+
+.two-lines {
+    font-family: Poppins;
+    text-shadow: 0 0 0 transparent;
+    color: #fff;
+    font-weight: 200;
+    width: 45%;
+    text-align: center;
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+@keyframes rocking { 
+    0% { -webkit-transform: perspective(400px) rotate(0deg);}
+    30% { -webkit-transform: perspective(400px) rotate(3deg);}
+    50% { -webkit-transform: perspective(400px) rotate(-3deg);}
+    100% { -webkit-transform: perspective(400px) rotate(0deg);} 
+  }
+
+
+button {
+    font-family: Poppins;
+    background-color: #e0e0e0;;
+    color: #000;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-weight: 900;
+    border-color: #707070;
+    border-width: 1px;
+    border-style: solid;
+    text-transform: none;
+    text-shadow: 0 0 0 transparent;
+    width: auto;
+    border-radius: 10px;
+    font-size: 20px;
+
+    display: flex;
+    margin: 0 auto;
+
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: rocking;
+
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: all;
+
+    animation: rocking 2s infinite;
+    animation-timing-function: ease-out;
+    transition: .2s;
+}
+
+@media screen and (device-width: 1024px) {
+    .two-lines {
+        width: 75%;
+    }
+   }
+
+@media screen and (device-width: 768px) {
+    .two-lines {
+        width: 85%;
+    }
+}
+
+@media screen and (device-width: 425px) {
+    .two-lines {
+        width: 95%;
+        font-size: 15px;
+    }
+    strong {
+        font-size: 20px;
+    }
+    button {
+        margin-bottom: 15px;
+        padding: 10px 15px;
+    }
+}
+
+@media screen and (device-width: 375px) {
+    .two-lines {
+        width: 95%;
+        font-size: 15px;
+    }
+    strong {
+        font-size: 20px;
+    }
+    button {
+        margin-bottom: 15px;
+        padding: 10px 15px;
+    }
+
+}
+
+@media screen and (device-width: 320px) {
+    .two-lines {
+        width: 95%;
+        font-size: 15px;
+    }
+    strong {
+        font-size: 20px;
+    }
+    button {
+        margin-bottom: 15px;
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+}
