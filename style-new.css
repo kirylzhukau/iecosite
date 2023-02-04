@@ -53,6 +53,12 @@ p {
     100% { -webkit-transform: perspective(400px) rotate(0deg);} 
   }
 
+._3efP_GeH5kyBAzqnLzL adpQ3VUeQbmczOdx9ymw w_Mtb2W9166EgOSv9i3M cllbjvXCdYDt9A3te4cz {
+    box-shadow: -1px -1px 100px -35px rgba(255,255,255,0.75) !important;
+    -webkit-box-shadow: -1px -1px 100px -35px rgba(255,255,255,0.75);
+    -moz-box-shadow: -1px -1px 100px -35px rgba(255,255,255,0.75);
+}
+
 
 button {
     cursor: pointer;
